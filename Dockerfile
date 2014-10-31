@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 MAINTAINER Xebia Nederland b.v. "wvos@xebia.com"
 
 # install java
-RUN yum install -y openjdk
+RUN /usr/bin/apt-get install -y openjdk-7-jdk
 
 # download elastic search
 
